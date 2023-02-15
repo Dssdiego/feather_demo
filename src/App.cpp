@@ -3,8 +3,30 @@
 //
 
 #include <iostream>
+//#include "../feather/src/engine/api/Engine.h"
+//#include "../feather/src/engine/common/Config.h"
+
+//using namespace Feather;
 
 int main()
 {
-	std::cout << "Hello world!" << std::endl;
+	//Engine game;
+	//EngineConfig config{
+	//		"Feather Game Engine - v0.0.1",
+	//		{Config::GetWindowWidth(),
+	//		 Config::GetWindowHeight()},
+	//		{320, 240},
+	//		Config::GetSaveToLogFile() // FIXME: Logger saves automatically so this config is useless right now!
+	//};
+	//try {
+	//	game.Init(&config);
+	//	game.Run();
+	//	game.Cleanup();
+	//}
+	//catch (const std::exception& e) {
+	//	std::cerr << e.what() << std::endl;
+	//	return EXIT_FAILURE;
+	//}
+	//return EXIT_SUCCESS;
+	std::cout << "Hello world" << std::endl;
 }
